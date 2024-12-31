@@ -10,7 +10,7 @@ export const ResultContextProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [videos, setVideos] = useState([]);
 
-  const apiKey = "be14ad96d9msh82752b2a3b1f0bap1f81fajsnff07ee81824b";
+  const apiKey = "0415bc5c4bmsh6cee31a6c83cb4ap111572jsn2bc62c364671";
 
   const getResults = async (query) => {
     setIsLoading(true);
