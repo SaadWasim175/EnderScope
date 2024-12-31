@@ -10,7 +10,7 @@ export const ResultContextProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [videos, setVideos] = useState([]);
 
-  const apiKey = import.meta.env.VITE_RAPIDAPI_KEY;
+  const apiKey = "be14ad96d9msh82752b2a3b1f0bap1f81fajsnff07ee81824b";
 
   const getResults = async (query) => {
     setIsLoading(true);
